@@ -1,7 +1,7 @@
 {
-  "name": "iovalkey",
+  "name": "@hanzo/kv-client",
   "version": "0.3.3",
-  "description": "A robust, performance-focused and full-featured Valkey/Redis client for Node.js.",
+  "description": "A robust, performance-focused client for Hanzo KV, Valkey, and Redis.",
   "main": "./built/index.js",
   "types": "./built/index.d.ts",
   "files": [
@@ -23,9 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/valkey-io/iovalkey.git"
+    "url": "git://github.com/hanzoai/kv-client.git"
   },
   "keywords": [
+    "hanzo",
+    "kv",
     "valkey",
     "redis",
     "cluster",
@@ -35,7 +37,7 @@
   "tsd": {
     "directory": "test/typing"
   },
-  "author": "Matteo Collina <hello@matteocollina.com>",
+  "author": "Hanzo AI <dev@hanzo.ai>",
   "license": "MIT",
   "dependencies": {
     "@iovalkey/commands": "^0.1.0",
